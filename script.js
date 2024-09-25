@@ -31,7 +31,7 @@ window.onload = displayAllRecipes;// Array of 15 static recipes
 const recipes = [
     {
         title: "Spaghetti Bolognese",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/Spaghetti Bolognese.jpeg",
+        image: "Spaghetti Bolognese.jpeg",
         ingredients: ["spaghetti(200g)", "ground beef(300g)", "tomato sauce(400g)", "onion(1, chopped)", "garlic(2 cloves, minced)"],
         Making: [
             "Cook Spaghetti: Boil salted water, add spaghetti, and cook until al dente. Drain.",
@@ -44,7 +44,7 @@ const recipes = [
     },
     {
         title: "Chicken Salad",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/Chicken Salad.jpg",
+        image: "Chicken Salad.jpg",
         ingredients: ["chicken(200g)", "lettuce(1 head)", "cucumber(1)", "tomato(1)", "olive oil(2 tbsp)"],
         Making: [
             "Cook Chicken: Grill or boil chicken until cooked through. Let cool and shred.",
@@ -55,7 +55,7 @@ const recipes = [
     },
     {
         title: "Pancakes",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/pancake.jpg",
+        image: "pancake.jpg",
         ingredients: ["flour(1 cup)", "milk(1 cup)", "egg(1)", "butter(2 tbsp)", "sugar(2 tbsp)"],
         Making: [
             "Mix Ingredients: In a bowl, whisk together flour, milk, egg, melted butter, and sugar until smooth.",
@@ -66,7 +66,7 @@ const recipes = [
     },
     {
         title: "Vegetable Stir-Fry",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/vegetable_stir_fry (1).jpg",
+        image: "vegetable_stir_fry (1).jpg",
         ingredients: ["mixed vegetables(400g)", "soy sauce(2 tbsp)", "olive oil(2 tbsp)", "garlic(2 cloves)", "ginger(1 tsp)"],
         Making: [
             "Prep Vegetables: Chop vegetables into bite-sized pieces.",
@@ -79,7 +79,7 @@ const recipes = [
     },
     {
         title: "Tacos",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/Tacos (1).jpg",
+        image: "Tacos (1).jpg",
         ingredients: ["taco shells(4)", "ground beef(300g)", "lettuce(1 cup)", "cheese(100g, shredded)", "salsa(1/2 cup)"],
         Making: [
             "Cook Beef: In a skillet, brown the ground beef over medium heat.",
@@ -90,7 +90,7 @@ const recipes = [
     },
     {
         title: "Tomato Soup",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/tomato-soup-7 (1).jpg",
+        image: "tomato-soup-7 (1).jpg",
         ingredients: ["canned tomatoes(800g)", "onion(1, chopped)", "garlic(2 cloves)", "vegetable broth(2 cups)", "basil(1 tsp)"],
         Making: [
             "Sauté Onion: In a pot, heat olive oil and sauté chopped onion until translucent.",
@@ -103,7 +103,7 @@ const recipes = [
     },
     {
         title: "Fried Rice",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/fried-rice-feat (1).jpg",
+        image: "fried-rice-feat (1).jpg",
         ingredients: ["cooked rice(2 cups)", "egg(1)", "mixed vegetables(1 cup)", "soy sauce(2 tbsp)", "green onions(2)"],
         Making: [
             "Scramble Egg: In a pan, scramble the egg and set aside.",
@@ -115,7 +115,7 @@ const recipes = [
     },
     {
         title: "Grilled Cheese Sandwich",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/Grilled-Cheese-4 (1).webp",
+        image: "Grilled-Cheese-4 (1).webp",
         ingredients: ["bread(2 slices)", "cheese(2 slices)", "butter(1 tbsp)"],
         Making: [
             "Butter Bread: Spread butter on one side of each slice of bread.",
@@ -126,7 +126,7 @@ const recipes = [
     },
     {
         title: "Chocolate Cake",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/Air_Fryer_Chocolate_Cake (1).jpg",
+        image: "Air_Fryer_Chocolate_Cake (1).jpg",
         ingredients: ["flour(1 cup)", "cocoa powder(1/2 cup)", "sugar(1 cup)", "eggs(2)", "butter(1/2 cup)"],
         Making: [
             "Preheat Oven: Preheat your oven to 350°F (175°C).",
@@ -138,7 +138,7 @@ const recipes = [
     },
     {
         title: "Caesar Salad",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/big-bowl-side (1).jpg",
+        image: "big-bowl-side (1).jpg",
         ingredients: ["romaine lettuce(1 head)", "croutons(1 cup)", "parmesan cheese(1/2 cup)", "Caesar dressing(1/4 cup)"],
         Making: [
             "Chop Lettuce: Wash and chop romaine lettuce.",
@@ -149,7 +149,7 @@ const recipes = [
     },
     {
         title: "Omelette",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/Omelette (1).webp",
+        image: "Omelette (1).webp",
         ingredients: ["eggs(2)", "milk(1 tbsp)", "cheese(1/4 cup)", "salt(1/2 tsp)", "pepper(1/4 tsp)"],
         Making: [
             "Beat Eggs: In a bowl, beat eggs with milk, salt, and pepper.",
@@ -161,7 +161,7 @@ const recipes = [
     },
     {
         title: "Beef Stew",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/Beef-Stew-Recipe3 (1).jpg",
+        image: "Beef-Stew-Recipe3 (1).jpg",
         ingredients: ["beef(500g, cubed)", "carrots(2, chopped)", "potatoes(2, diced)", "onion(1, chopped)", "beef broth(4 cups)"],
         Making: [
             "Brown Beef: In a pot, brown the beef over medium heat.",
@@ -173,7 +173,7 @@ const recipes = [
     },
     {
         title: "Caprese Salad",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/Caprese-Salad-7b (1).jpg",
+        image: "Caprese-Salad-7b (1).jpg",
         ingredients: ["tomatoes(2)", "mozzarella cheese(200g)", "basil(1/4 cup)", "olive oil(2 tbsp)", "balsamic vinegar(1 tbsp)"],
         Making: [
             "Slice Tomatoes: Slice tomatoes and mozzarella cheese.",
@@ -184,7 +184,7 @@ const recipes = [
     },
     {
         title: "Mutton Curry",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/images (1).jpeg",
+        image: "images (1).jpeg",
         ingredients: [
             "mutton(500g, cut into pieces)",
             "onion(2, finely chopped)",
@@ -214,7 +214,7 @@ const recipes = [
     },
     {
         title: "Chinese Noodles",
-        image: "D:/Front_End Projects/Receipe_App/Thumbnails/Lo-Mein-Recipe (1).jpg", // Add the image path
+        image: "Lo-Mein-Recipe (1).jpg", // Add the image path
         ingredients: [
             "noodles(200g)",
             "bell pepper(1, sliced)",
