@@ -1,1 +1,1 @@
-# Recipe_Finder
+Recipe Finder is a simple web application where users can search for their favorite recipes and view the ingredients and steps for preparation. The application dynamically displays the recipe details based on the search query, providing a seamless user experience.
